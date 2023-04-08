@@ -1,1 +1,5 @@
-# SC1015_Z139_Team3
+# Image Classification and Influence Functions with PyTorch
+
+## About
+
+This is our project
