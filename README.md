@@ -3,5 +3,3 @@
 ## About
 
 This is our project
-hello
-#hell
