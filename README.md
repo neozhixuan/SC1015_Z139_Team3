@@ -3,7 +3,7 @@
 ## About
 This is our project for SC1015 (Introduction to Data Science and Artifical Intelligence) which focuses on classifying images from the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). 
 
-We analyse the dataset firstly with a [convolutional neural network](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/convolutionalneuralnetwork.ipynb). Next, we analyse the influence of individual images in the image folders, and find the most influential image within it, using the [PyTorch Influence Function](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/influencefunctions.ipynb).
+Firstly, we analyse the dataset with a [convolutional neural network](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/convolutionalneuralnetwork.ipynb). Next, we analyse the influence of individual images in the image folders, and find the most influential image within it, using the [PyTorch Influence Function](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/influencefunctions.ipynb).
 
 ## Contributors
 
