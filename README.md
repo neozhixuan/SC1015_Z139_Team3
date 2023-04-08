@@ -10,7 +10,7 @@ Firstly, we classify the images dataset into different labels, via a [convolutio
 ## Problem Definition
 How can we effectively categorize the influence of the CIFAR-10 dataset on machine learning research and applications?
 ## Models Used
-
+Convolutional Neural Network
 ## Issues Faced and Reference Fixes
 1. Error: TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
   - Solution: https://github.com/nimarb/pytorch_influence_functions/issues/34
