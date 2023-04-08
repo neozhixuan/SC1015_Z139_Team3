@@ -10,10 +10,10 @@ This is our project for SC1015 (Introduction to Data Science and Artifical Intel
 ## Models Used
 
 ## Issues Faced and Reference Fixes
-1. Error - TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+1. Error: TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
   - Solution: https://github.com/nimarb/pytorch_influence_functions/issues/34
 
-2. Error - Index error within Influence Function 
+2. Error: Index error within Influence Function 
   - Solution: Update calc_influence_function
     - default value for test_start_index is 'None' instead of False
     - fixes bug when test_start_index is set to 0
