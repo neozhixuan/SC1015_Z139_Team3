@@ -8,7 +8,7 @@ Firstly, we classify the images dataset into different labels, via a [convolutio
 ## Contributors
 
 ## Problem Definition
-
+How can we effectively categorize the influence of the CIFAR-10 dataset on machine learning research and applications?
 ## Models Used
 
 ## Issues Faced and Reference Fixes
