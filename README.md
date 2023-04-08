@@ -17,6 +17,6 @@ This is our project for SC1015 (Introduction to Data Science and Artifical Intel
   - Solution: Update calc_influence_function
     - default value for test_start_index is 'None' instead of False
     - fixes bug when test_start_index is set to 0
-    [https://github.com/expectopatronum/pytorch_influence_functions/commit/ecce2d27e3d46b3125bb3dd963beebd7a5407959]
+    - Forked changes (https://github.com/expectopatronum/pytorch_influence_functions/commit/ecce2d27e3d46b3125bb3dd963beebd7a5407959)
 
 ## Conclusion
