@@ -77,13 +77,13 @@ The forward function defines the forward pass of the model, where the input tens
 
 ## Issues Faced and Reference Fixes
 1. Error: TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
-  - Solution: https://github.com/nimarb/pytorch_influence_functions/issues/34
+   - Solution: https://github.com/nimarb/pytorch_influence_functions/issues/34
 
 2. Error: Index error within Influence Function 
-  - Solution: Update calc_influence_function
-    - default value for test_start_index is 'None' instead of False
-    - fixes bug when test_start_index is set to 0
-    - [Forked changes](https://github.com/expectopatronum/pytorch_influence_functions/commit/ecce2d27e3d46b3125bb3dd963beebd7a5407959)
+   - Solution: Update calc_influence_function
+     - default value for test_start_index is 'None' instead of False
+     - fixes bug when test_start_index is set to 0
+     - [Forked changes](https://github.com/expectopatronum/pytorch_influence_functions/commit/ecce2d27e3d46b3125bb3dd963beebd7a5407959)
     
 ## Key Takeaways from the CIFAR-10 Image Classification Project
 Dataset understanding: Gained insights into the CIFAR-10 dataset through exploratory data analysis, informing preprocessing and model selection decisions.
