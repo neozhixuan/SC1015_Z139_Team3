@@ -17,11 +17,11 @@ In this repository, you will find three Jupyter notebooks, EDA.ipynb, convolutio
 
 ## Contributors
    - [Neo Zhi Xuan](https://github.com/neozhixuan)
-    - placeholder
+     - placeholder
    - [Ng Zhuo Quan](https://github.com/blanknew)
-    - placeholder
+     - placeholder
    - [Darius](https://github.com/Unknownplaylist)
-    - placeholder
+     - placeholder
  
     
 ## Problem Definition
