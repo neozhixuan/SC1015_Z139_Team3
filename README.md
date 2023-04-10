@@ -1,7 +1,7 @@
 # SC1015 Project: CIFAR-10 Image Classification and Analysis using Convolutional Neural Networks and Influence Functions
 
 ## About
-Description: This project aims to demonstrate our understanding of Data Science and Artificial Intelligence concepts in the context of image classification and analysis, focusing on the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
+This project aims to demonstrate our understanding of Data Science and Artificial Intelligence concepts in the context of image classification and analysis, focusing on the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
 
 In this repository, you will find three Jupyter notebooks, EDA.ipynb, [convolutionalneuralnetwork.ipynb](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/convolutionalneuralnetwork.ipynb), and [influencefunctions.ipynb](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/influencefunctions.ipynb), which contain the following components:
 
