@@ -16,10 +16,16 @@ In this repository, you will find three Jupyter notebooks, EDA.ipynb, convolutio
 
 
 ## Contributors
-
+   - [Neo Zhi Xuan](https://github.com/neozhixuan)
+    - placeholder
+   - [Ng Zhuo Quan](https://github.com/blanknew)
+    - placeholder
+   - [Darius](https://github.com/Unknownplaylist)
+    - placeholder
+ 
+    
 ## Problem Definition
 The objective of this project is to classify images from the CIFAR-10 dataset into one of 10 possible classes. The CIFAR-10 dataset is a widely-used benchmark dataset for image classification tasks and consists of 60,000 32x32 color images. These images are divided into 10 classes, with 6,000 images per class. The 10 classes are:
-
    - Airplane
    - Automobile
    - Bird
