@@ -3,13 +3,13 @@
 ## About
 This project aims to demonstrate our understanding of Data Science and Artificial Intelligence concepts in the context of image classification and analysis, focusing on the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html).
 
-In this repository, you will find three Jupyter notebooks, EDA.ipynb, [convolutionalneuralnetwork.ipynb](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/convolutionalneuralnetwork.ipynb), and [influencefunctions.ipynb](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/influencefunctions.ipynb), which contain the following components:
+In this repository, you will find three Jupyter notebooks, EDA.ipynb, convolutionalneuralnetwork.ipynb, and influencefunctions.ipynb, which contain the following components:
 
-   1) 'EDA.ipynb' : This notebook contains an Exploratory Data Analysis (EDA) of the CIFAR-10 dataset. It involves a thorough examination of the dataset, its structure, and its properties. This EDA helps us gain insights into the dataset and informs our decisions on preprocessing and model selection for the image classification task.
+   1) **EDA.ipynb** : This notebook contains an Exploratory Data Analysis (EDA) of the CIFAR-10 dataset. It involves a thorough examination of the dataset, its structure, and its properties. This EDA helps us gain insights into the dataset and informs our decisions on preprocessing and model selection for the image classification task.
 
-   2) 'convolutionalneuralnetwork.ipynb' : This notebook demonstrates the process of classifying images from the CIFAR-10 dataset using a Convolutional Neural Network (CNN) implemented in PyTorch. The CNN architecture is designed to learn and identify the features of the images effectively, resulting in accurate classification of the images into their respective labels. The notebook also includes data preprocessing, model training, evaluation, and visualization of the results. The accuracy scores of the model are presented and discussed in detail.
+   2) **[convolutionalneuralnetwork.ipynb](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/convolutionalneuralnetwork.ipynb)** : This notebook demonstrates the process of classifying images from the CIFAR-10 dataset using a Convolutional Neural Network (CNN) implemented in PyTorch. The CNN architecture is designed to learn and identify the features of the images effectively, resulting in accurate classification of the images into their respective labels. The notebook also includes data preprocessing, model training, evaluation, and visualization of the results. The accuracy scores of the model are presented and discussed in detail.
 
-  3) 'influencefunctions.ipynb' : This notebook focuses on the analysis of individual images and their impact on the classification performance of the trained model. By implementing influence functions in PyTorch, with reference to the [influence function implementation](https://github.com/nimarb/pytorch_influence_functions), we investigate the contribution of each image in the dataset, identifying the most influential images. This analysis helps us understand the model's behavior and provides insights into potential improvements in the classification performance.The results of this analysis are saved as [influence_results_0_1.json](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/datasets/influence_results_0_1.json), which can be found in the dataset folder of the repository.
+  3) **[influencefunctions.ipynb](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/influencefunctions.ipynb)** : This notebook focuses on the analysis of individual images and their impact on the classification performance of the trained model. By implementing influence functions in PyTorch, with reference to the [influence function implementation](https://github.com/nimarb/pytorch_influence_functions), we investigate the contribution of each image in the dataset, identifying the most influential images. This analysis helps us understand the model's behavior and provides insights into potential improvements in the classification performance.The results of this analysis are saved as [influence_results_0_1.json](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/datasets/influence_results_0_1.json), which can be found in the dataset folder of the repository.
 
 
 
@@ -20,16 +20,16 @@ In this repository, you will find three Jupyter notebooks, EDA.ipynb, [convoluti
 ## Problem Definition
 The objective of this project is to classify images from the CIFAR-10 dataset into one of 10 possible classes. The CIFAR-10 dataset is a widely-used benchmark dataset for image classification tasks and consists of 60,000 32x32 color images. These images are divided into 10 classes, with 6,000 images per class. The 10 classes are:
 
-   1) Airplane
-   2) Automobile
-   3) Bird
-   4) Cat
-   5) Deer
-   6) Dog
-   7) Frog
-   8) Horse
-   9) Ship
-   10) Truck
+   - Airplane
+   - Automobile
+   - Bird
+   - Cat
+   - Deer
+   - Dog
+   - Frog
+   - Horse
+   - Ship
+   - Truck
    
 Our goal is to develop a machine learning model, specifically a convolutional neural network (CNN), capable of accurately identifying the class of each image. Additionally, we aim to analyze the influence of individual images on the model's classification performance to gain insights into the model's behavior and identify areas for potential improvement.
 
@@ -79,18 +79,18 @@ The forward function defines the forward pass of the model, where the input tens
     - fixes bug when test_start_index is set to 0
     - [Forked changes](https://github.com/expectopatronum/pytorch_influence_functions/commit/ecce2d27e3d46b3125bb3dd963beebd7a5407959)
     
-##Key Takeaways from the CIFAR-10 Image Classification Project
+## Key Takeaways from the CIFAR-10 Image Classification Project
 Dataset understanding: Gained insights into the CIFAR-10 dataset through exploratory data analysis, informing preprocessing and model selection decisions.
 
-   -**Convolutional Neural Networks: Acquired hands-on experience in designing, implementing, and evaluating a CNN using PyTorch for image classification.
-   -**Performance metrics: Learned to assess model performance using metrics such as accuracy, precision, recall, and F1-score, enabling quantitative evaluation and identification of improvement areas.
-   -**Influence functions: Explored the concept of influence functions for analyzing individual image contributions to the model's performance, providing insights into model behavior.
-   -**Interpreting results: Understood the characteristics of influential images and their impact on the model, guiding potential refinements and data collection efforts.
-   -**Iterative improvement: Emphasized the importance of continuous model refinement based on performance evaluation and influence analysis in data science and artificial intelligence projects.
+   - **Convolutional Neural Networks:** Acquired hands-on experience in designing, implementing, and evaluating a CNN using PyTorch for image classification.
+   - **Performance metrics:** Learned to assess model performance using metrics such as accuracy, precision, recall, and F1-score, enabling quantitative evaluation and identification of improvement areas.
+   - **Influence functions:** Explored the concept of influence functions for analyzing individual image contributions to the model's performance, providing insights into model behavior.
+   - **Interpreting results:** Understood the characteristics of influential images and their impact on the model, guiding potential refinements and data collection efforts.
+   - **Iterative improvement:** Emphasized the importance of continuous model refinement based on performance evaluation and influence analysis in data science and artificial intelligence projects.
 
 ## Conclusion
 
-In conclusion, our analysis using influence functions in the influencefunctions.ipynb notebook revealed some interesting insights about the most influential images in the CIFAR-10 dataset. For the 'plane' class, we observed that the images with harmful influence predominantly resemble planes, while the helpful ones do not seem to have a strong resemblance to planes at all.
+Our analysis using influence functions in the influencefunctions.ipynb notebook revealed some interesting insights about the most influential images in the CIFAR-10 dataset. For the 'plane' class, we observed that the images with harmful influence predominantly resemble planes, while the helpful ones do not seem to have a strong resemblance to planes at all.
 
 ![image](https://user-images.githubusercontent.com/44828267/230854030-67094293-cb80-4a4b-9659-50790e1cdb28.png)
 
