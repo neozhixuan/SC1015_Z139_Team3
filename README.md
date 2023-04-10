@@ -18,8 +18,23 @@ In this repository, you will find three Jupyter notebooks, EDA.ipynb, [convoluti
 ## Contributors
 
 ## Problem Definition
-How can we effectively categorize the influence of the CIFAR-10 dataset on machine learning research and applications?
-## Models Used
+The objective of this project is to classify images from the CIFAR-10 dataset into one of 10 possible classes. The CIFAR-10 dataset is a widely-used benchmark dataset for image classification tasks and consists of 60,000 32x32 color images. These images are divided into 10 classes, with 6,000 images per class. The 10 classes are:
+
+   1) Airplane
+   2) Automobile
+   3) Bird
+   4) Cat
+   5) Deer
+   6) Dog
+   7) Frog
+   8) Horse
+   9) Ship
+   10) Truck
+   
+Our goal is to develop a machine learning model, specifically a convolutional neural network (CNN), capable of accurately identifying the class of each image. Additionally, we aim to analyze the influence of individual images on the model's classification performance to gain insights into the model's behavior and identify areas for potential improvement.
+
+The problem can be formalized as a multi-class classification task, where the input is a 32x32 color image, and the output is a class label from the 10 possible classes. The performance of the model can be assessed using metrics such as accuracy, precision, recall, and F1-score.
+## Model Architecture
 In this section, we present the model architecture used for classifying images from the CIFAR-10 dataset. The model is a convolutional neural network (CNN) and is implemented using PyTorch. Below is the code defining the Net class that describes the structure of the CNN:
 
     import torch.nn as nn
