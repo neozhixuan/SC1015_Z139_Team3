@@ -5,7 +5,7 @@ This project aims to demonstrate our understanding of Data Science and Artificia
 
 In this repository, you will find three Jupyter notebooks, EDA.ipynb, convolutionalneuralnetwork.ipynb, and influencefunctions.ipynb, which contain the following components:
 
-   1) **EDA.ipynb** : This notebook contains an Exploratory Data Analysis (EDA) of the CIFAR-10 dataset. It involves a thorough examination of the dataset, its structure, and its properties. This EDA helps us gain insights into the dataset and informs our decisions on preprocessing and model selection for the image classification task.
+   1) **[exploratoryanalysis.ipynb](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/exploratoryanalysis.ipynb)** : This notebook contains an Exploratory Data Analysis (EDA) of the CIFAR-10 dataset. It involves a thorough examination of the dataset, its structure, and its properties. This EDA helps us gain insights into the dataset and informs our decisions on preprocessing and model selection for the image classification task.
 
    2) **[convolutionalneuralnetwork.ipynb](https://github.com/neozhixuan/SC1015_Z139_Team3/blob/main/convolutionalneuralnetwork.ipynb)** : This notebook demonstrates the process of classifying images from the CIFAR-10 dataset using a Convolutional Neural Network (CNN) implemented in PyTorch. The CNN architecture is designed to learn and identify the features of the images effectively, resulting in accurate classification of the images into their respective labels. The notebook also includes data preprocessing, model training, evaluation, and visualization of the results. The accuracy scores of the model are presented and discussed in detail.
 
@@ -17,7 +17,7 @@ In this repository, you will find three Jupyter notebooks, EDA.ipynb, convolutio
 
 ## Contributors
    - [Neo Zhi Xuan](https://github.com/neozhixuan)
-     - placeholder
+     - Exploratory Data Analysis
    - [Ng Zhuo Quan](https://github.com/blanknew)
      - placeholder
    - [Darius](https://github.com/Unknownplaylist)
@@ -40,6 +40,23 @@ The objective of this project is to classify images from the CIFAR-10 dataset in
 Our goal is to develop a machine learning model, specifically a convolutional neural network (CNN), capable of accurately identifying the class of each image. Additionally, we aim to analyze the influence of individual images on the model's classification performance to gain insights into the model's behavior and identify areas for potential improvement.
 
 The problem can be formalized as a multi-class classification task, where the input is a 32x32 color image, and the output is a class label from the 10 possible classes. The performance of the model can be assessed using metrics such as accuracy, precision, recall, and F1-score.
+
+## Exploratory Analysis of Images
+To begin, we analysed the images and its distribution of pixels. The results were:
+Mean: tensor([0.4914, 0.4822, 0.4465])
+Std: tensor([0.2023, 0.1994, 0.2010])
+
+We normalised it using PyTorch, getting these results:
+Mean: tensor([-1.5628e-06, -2.0851e-04,  1.5382e-04])
+Std: tensor([1.0000, 1.0001, 0.9998])
+
+After which, we analysed the color distribution and pixel distributions to ensure proper normalisation:
+![image](https://user-images.githubusercontent.com/79783660/232287332-32155a44-a93b-4d8c-84da-6c0240526ad7.png)
+![image](https://user-images.githubusercontent.com/79783660/232287348-68f26f09-4edd-4a6e-af94-e98ab85edf87.png)
+
+Finally, we analysed the PCA distribution to ensure that the data in each label has low variation to improve our CNN training.
+![image](https://user-images.githubusercontent.com/79783660/232287391-630bfc05-f2b0-428e-bafb-fdc638f5d633.png)
+
 ## Model Architecture
 In this section, we present the model architecture used for classifying images from the CIFAR-10 dataset. The model is a convolutional neural network (CNN) and is implemented using PyTorch. Below is the code defining the Net class that describes the structure of the CNN:
 
