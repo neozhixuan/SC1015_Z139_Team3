@@ -51,11 +51,12 @@ Mean: tensor([-1.5628e-06, -2.0851e-04,  1.5382e-04])
 Std: tensor([1.0000, 1.0001, 0.9998])
 
 After which, we analysed the color distribution and pixel distributions to ensure proper normalisation:
-<img src="https://user-images.githubusercontent.com/79783660/232287332-32155a44-a93b-4d8c-84da-6c0240526ad7.png" width="50%">
 
-<img src="https://user-images.githubusercontent.com/79783660/232287348-68f26f09-4edd-4a6e-af94-e98ab85edf87.png" width="50%">
+<img src="https://user-images.githubusercontent.com/79783660/232287332-32155a44-a93b-4d8c-84da-6c0240526ad7.png" width="35%">
+<img src="https://user-images.githubusercontent.com/79783660/232287348-68f26f09-4edd-4a6e-af94-e98ab85edf87.png" width="35%">
 
 Finally, we analysed the PCA distribution to ensure that the data in each label has low variation to improve our CNN training.
+
 ![image](https://user-images.githubusercontent.com/79783660/232287391-630bfc05-f2b0-428e-bafb-fdc638f5d633.png)
 
 ## Model Architecture
