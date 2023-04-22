@@ -19,7 +19,7 @@ In this repository, you will find three Jupyter notebooks, EDA.ipynb, convolutio
    - [Neo Zhi Xuan](https://github.com/neozhixuan)
      - Exploratory Data Analysis
    - [Ng Zhuo Quan](https://github.com/blanknew)
-     - placeholder
+     - Convolutional Neural Network
    - [Darius](https://github.com/Unknownplaylist)
      - Influence Functions & Assit in Model
  
