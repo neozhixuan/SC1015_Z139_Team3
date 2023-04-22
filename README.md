@@ -54,9 +54,12 @@ We normalised it using PyTorch, getting these results:
   <img src="https://user-images.githubusercontent.com/79783660/232287332-32155a44-a93b-4d8c-84da-6c0240526ad7.png" height="300" width="auto">
   <img src="https://user-images.githubusercontent.com/79783660/232287348-68f26f09-4edd-4a6e-af94-e98ab85edf87.png" height="300" width="auto">
 </p>
+
 After which, we analysed the color distribution and pixel distributions to detect biases in data. We plot the data using subplots and histograms, and the results were relatively centered at the mean (0), meaning that the data is well balanced and normalised. 
 
 ![image](https://user-images.githubusercontent.com/79783660/232287391-630bfc05-f2b0-428e-bafb-fdc638f5d633.png)
+
+
 Finally, we analysed the PCA distribution to detect whether the images are distinct and classifiable. The plot shows distinct groups of images where similar classes are grouped closely to each other, thus the normalisation has made it simpler for our CNN to classify the images.
 
 To conclude, the post-normalisation data has helped us normalise our images and ensure that it is well prepared for classification.
