@@ -21,7 +21,7 @@ In this repository, you will find three Jupyter notebooks, EDA.ipynb, convolutio
    - [Ng Zhuo Quan](https://github.com/blanknew)
      - placeholder
    - [Darius](https://github.com/Unknownplaylist)
-     - placeholder
+     - Influence Functions & Assit in Model
  
     
 ## Problem Definition
