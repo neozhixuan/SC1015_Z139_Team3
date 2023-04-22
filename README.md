@@ -137,6 +137,10 @@ These findings emphasize the importance of examining individual image contributi
    - https://pytorch.org/ [online]
 - Scikit-Learn 
    - https://scikit-learn.org/stable/ [online]
+- Convolutional Neural Networks 
+   - https://www.ibm.com/topics/convolutional-neural-networks [online]
+- Training a classifier
+   - https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html [online]
 - Pytorch Influence Functions 
    - https://github.com/nimarb/pytorch_influence_functions [online]
 - Fix Pytorch Influence Functions (1) 
