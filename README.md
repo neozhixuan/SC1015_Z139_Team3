@@ -21,7 +21,7 @@ In this repository, you will find three Jupyter notebooks, EDA.ipynb, convolutio
    - [Ng Zhuo Quan](https://github.com/blanknew)
      - Convolutional Neural Network
    - [Darius](https://github.com/Unknownplaylist)
-     - Influence Functions & Assit in Model
+     - Influence Functions & Assist in Model
  
     
 ## Problem Definition
@@ -125,3 +125,8 @@ Our analysis using influence functions in the influencefunctions.ipynb notebook 
 This observation suggests that the model may struggle to differentiate between certain planes and other classes, leading to misclassifications. The helpful images, which do not resemble planes, may aid the model in identifying the distinguishing features of other classes and consequently improve classification accuracy.
 
 These findings emphasize the importance of examining individual image contributions to better understand the model's behavior and identify potential areas for improvement. By addressing such issues, we can further enhance the model's performance and achieve a more robust image classification system.
+
+## References
+https://github.com/nimarb/pytorch_influence_functions
+https://github.com/nimarb/pytorch_influence_functions/issues/34
+https://github.com/expectopatronum/pytorch_influence_functions/commit/ecce2d27e3d46b3125bb3dd963beebd7a5407959
