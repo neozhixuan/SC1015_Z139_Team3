@@ -43,24 +43,23 @@ The problem can be formalized as a multi-class classification task, where the in
 
 ## Exploratory Analysis of Images
 To begin, we analysed the images and its distribution of pixels. The results were:
-Mean: tensor([0.4914, 0.4822, 0.4465])
-Std: tensor([0.2023, 0.1994, 0.2010])
+- Mean: tensor([0.4914, 0.4822, 0.4465])
+- Std: tensor([0.2023, 0.1994, 0.2010])
 
 We normalised it using PyTorch, getting these results:
-Mean: tensor([-1.5628e-06, -2.0851e-04,  1.5382e-04])
-Std: tensor([1.0000, 1.0001, 0.9998])
+- Mean: tensor([-1.5628e-06, -2.0851e-04,  1.5382e-04])
+- Std: tensor([1.0000, 1.0001, 0.9998])
 
-After which, we analysed the color distribution and pixel distributions to ensure proper normalisation:
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/79783660/232287332-32155a44-a93b-4d8c-84da-6c0240526ad7.png" width="35%">
-  <img src="https://user-images.githubusercontent.com/79783660/232287348-68f26f09-4edd-4a6e-af94-e98ab85edf87.png" width="35%">
+  <img src="https://user-images.githubusercontent.com/79783660/232287332-32155a44-a93b-4d8c-84da-6c0240526ad7.png" height="100" width="auto">
+  <img src="https://user-images.githubusercontent.com/79783660/232287348-68f26f09-4edd-4a6e-af94-e98ab85edf87.png" height="100" width="auto">
 </p>
-
-
-
-Finally, we analysed the PCA distribution to ensure that the data in each label has low variation to improve our CNN training.
+After which, we analysed the color distribution and pixel distributions to detect biases in data. We plot the data using subplots and histograms, and the results were relatively centered at the mean (0), meaning that the data is well balanced and normalised. 
 
 ![image](https://user-images.githubusercontent.com/79783660/232287391-630bfc05-f2b0-428e-bafb-fdc638f5d633.png)
+Finally, we analysed the PCA distribution to detect whether the images are distinct and classifiable. The plot shows distinct groups of images where similar classes are grouped closely to each other, thus the normalisation has made it simpler for our CNN to classify the images.
+
+To conclude, the post-normalisation data has helped us normalise our images and ensure that it is well prepared for classification.
 
 ## Model Architecture
 In this section, we present the model architecture used for classifying images from the CIFAR-10 dataset. The model is a convolutional neural network (CNN) and is implemented using PyTorch. Below is the code defining the Net class that describes the structure of the CNN:
