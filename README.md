@@ -51,8 +51,8 @@ We normalised it using PyTorch, getting these results:
 - Std: tensor([1.0000, 1.0001, 0.9998])
 
 <p float="left">
-  <img src="https://user-images.githubusercontent.com/79783660/232287332-32155a44-a93b-4d8c-84da-6c0240526ad7.png" height="100" width="auto">
-  <img src="https://user-images.githubusercontent.com/79783660/232287348-68f26f09-4edd-4a6e-af94-e98ab85edf87.png" height="100" width="auto">
+  <img src="https://user-images.githubusercontent.com/79783660/232287332-32155a44-a93b-4d8c-84da-6c0240526ad7.png" height="300" width="auto">
+  <img src="https://user-images.githubusercontent.com/79783660/232287348-68f26f09-4edd-4a6e-af94-e98ab85edf87.png" height="300" width="auto">
 </p>
 After which, we analysed the color distribution and pixel distributions to detect biases in data. We plot the data using subplots and histograms, and the results were relatively centered at the mean (0), meaning that the data is well balanced and normalised. 
 
