@@ -129,10 +129,11 @@ This observation suggests that the model may struggle to differentiate between c
 These findings emphasize the importance of examining individual image contributions to better understand the model's behavior and identify potential areas for improvement. By addressing such issues, we can further enhance the model's performance and achieve a more robust image classification system.
 
 ## References
-- https://www.cs.toronto.edu/~kriz/cifar.html
-- https://pytorch.org/
-- https://scikit-learn.org/stable/
-- https://github.com/nimarb/pytorch_influence_functions
-- https://github.com/nimarb/pytorch_influence_functions/issues/34
-- https://github.com/expectopatronum/pytorch_influence_functions/commit/ecce2d27e3d46b3125bb3dd963beebd7a5407959
-- https://slidesgo.com/theme/computer-science-mathematics-major-for-college-software-media-applications#search-computer+science&position-4&results-34&rs=search
+- Python https://www.python.org/ [online]
+- CIFAR-10 Dataset https://www.cs.toronto.edu/~kriz/cifar.html [online]
+- Pytorch https://pytorch.org/ [online]
+- Scikit-Learn https://scikit-learn.org/stable/ [online]
+- Pytorch Influence Functions https://github.com/nimarb/pytorch_influence_functions [online]
+- Fix Pytorch Influence Functions (1) https://github.com/nimarb/pytorch_influence_functions/issues/34 [online] 
+- Fix Pytorch Influence Functions (2) https://github.com/expectopatronum/pytorch_influence_functions/commit/ecce2d27e3d46b3125bb3dd963beebd7a5407959 [online]
+- Powerpoint Templates https://slidesgo.com/theme/computer-science-mathematics-major-for-college-software-media-applications#search-computer+science&position-4&results-34&rs=search [online]
